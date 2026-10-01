@@ -30,7 +30,8 @@ Include:
 - Installing dependencies
 - Setting working directory
 - Adding source code
-- Running the application`
+- Running the application
+- Multistage builds if applicable`
 
 func generateDockerfile(language string) (string, error) {
 	// Ollama's default is http://localhost:11434
